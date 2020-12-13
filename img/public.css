@@ -1,0 +1,58 @@
+
+
+.TableSkin{margin:0px auto; text-align:left; overflow:hidden; max-width:950px; width:100%;}
+.TableSkin p{font-family:Microsoft Yahei; vertical-align:middle; }
+.Top{height:4px; background-color:#ebebeb; overflow:hidden;}
+.LH{margin-top:20px}
+img{max-width:100%;}
+.bk{display:block;}
+/*尾部*/
+.Footer{width:100%; line-height:23px; text-align:center; margin-top:10px; color:#999; font-size:14px;}
+.Header .TableSkin{height:33px; line-height:33px; padding-left:8px;}
+.Site{float:left; color:#2b2b2b; margin-left:10px;}
+.title{font:bold 20px 宋体; margin:20px 6px 10px;}
+.ly{color:#999; font-size:14px; line-height:22px;}
+.source{border-bottom:1px solid #ddd; padding:0px 8px;}
+.source .Right{color:#999; margin-top:15px;}
+.source .Right p{float:left; margin-top:3px;}
+.source .Right span{margin:0px 10px;}
+.source .Right strong{font-family:Georgia; color:#f54343; font-size:16px; margin-right:5px;}
+.source .Right img{float:right; margin-left:20px;}
+.detailPic{margin:0 auto 10px;text-align:center}
+/*.info,.info *{font-size:14px;}*/
+.info{line-height:24px;text-align:left;padding:25px 0px 0px 5px;position:relative;}/*0830*/
+.info .jinghua{position:absolute;top:35px;right:10px;z-index:10; width:148px;height:88px; background:url(http://hxy8.shangfeixx2.cn/dwylr1/images/001.gif)}
+.info p{text-indent:28px;font-size:14px;margin-bottom:10px}
+.info p img {margin: 0px auto; max-width:300px;}
+.info p a{font-weight:bold;}
+.info p a:hover{ color:#f54343;}/*150717a*/
+.info .tit{font-family:微软雅黑;font-size:16px;}
+.info .bq{color:#999; background:url(http://hxy8.shangfeixx2.cn/dwylr1/images/wx.jpg) no-repeat right;}
+.info .bq span{color:#7E9AC9;}
+.keys{background-color:#ffff00;color:#ff0000; padding:0px 2px;}
+.bshare-custom{width:320px; margin:20px auto 50px; overflow:hidden;}
+.bshare-custom span{float:left;height:20px; line-height:20px;}
+.info .bshare-custom a{display:block;width:65px;height:20px; line-height:20px; float:left; padding-left:30px;}
+.info .bshare-custom .bshare-sinaminiblog{width:65px;height:20px;background:url(http://hxy8.shangfeixx2.cn/dwylr1/images/sha_01.gif) no-repeat left center; background-size: 24px 20px; margin-left:10px;}
+.info .bshare-custom .bshare-qzone{width:50px;height:19px; background:url(http://hxy8.shangfeixx2.cn/dwylr1/images/sha_02.gif) no-repeat left center; background-size:21px 20px; margin-left:10px;}
+.plLine{margin:20px auto; height:3px; background-color:#ebebeb;}
+.plTitle{font-family:"microsoft yahei"; font-size:20px; font-weight:bold; color:#000; margin:25px 0px 10px; border-bottom:1px solid #CCC; padding-left:1.5%; padding-bottom:8px;}
+.plAll{color:#024375; background-color:#F1F1F1; height:35px; line-height:35px; text-align:center; font-size:14px; margin-top:20px; cursor:pointer;}
+.plList{display:none;}
+.plSub{border-bottom:1px dashed #CCC; padding-bottom:10px; width:97%; margin:20px auto 0px;}
+.plSub dt{height:50px; line-height:21px;}
+.plSub dt .xm{font-size:14px;}
+.plSub dt .sj{color:#999;}
+.plSub dt img{width:36px; float:left; border:1px solid #ebebeb; padding:1px; margin-top:2px; margin-right:10px;}
+.plSub .nr{padding:10px 0px; line-height:23px; font-size:14px;}
+.plSub .nr a{font-size:14px; text-decoration:underline;}
+.plSub .hf{text-align:right; font-size:14px; color:#999;}
+.plSub .hf span{color:#f54343; font-family:georgia; font-size:16px; margin-left:8px;}
+a:hover{color:#F50;}
+@media(min-width:870px){
+	.TableSkin{width:870px;}
+	.info p img{max-width:870px;}
+	.title{font-size:24px;}
+}
+#LRdiv0{visibility:hidden}
+#LRdiv1{visibility:hidden}
