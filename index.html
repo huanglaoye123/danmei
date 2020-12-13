@@ -1,42 +1,339 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>spritejs</title>
-		<!--<link rel="stylesheet" href="src/css/demo_01.css">-->
-		<link rel="stylesheet" href="css/demo_02.css">
-	</head>
-	<body>
-		<div id="container"></div>
-		<button id="bt" onclick="fullScreen()">asdafsdf</button>
-		<!-- <script src="https://unpkg.com/spritejs@2.25.0/dist/spritejs.min.js"></script> -->
-		<script src="js/spritejs.js"></script>
-		<!--<script src="src/js/demo_01.js"></script>-->
-		<!--<script src="src/js/demo_02.js"></script>-->
-		<!--<script src="src/js/demo_03.js"></script>-->
-		<!--<script src="src/js/demo_04.js"></script>-->
-		<!--<script src="src/js/demo_05.js"></script>-->
-		<!-- <script src="src/js/demo_06.js"></script> -->
-		<script src="js/index09.js"></script>
-		<!-- <script src="src/js/demo_08.js"></script> -->
-	</body>
-</html>
-<script>
-
-	function fullScreen() {
-		var el = document.documentElement;
-		var rfs = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullScreen;
-
-		if (typeof rfs != "undefined" && rfs) {
-			rfs.call(el);
-		} else if (typeof window.ActiveXObject != "undefined") {
-			// for Internet Explorer 
-			var wscript = new ActiveXObject("WScript.Shell");
-			if (wscript != null) {
-				wscript.SendKeys("{F11}");
+<!-- saved from url=(0057)http://le.yijiahunyin.com/ca/?bd_vid=10770755266655498927 -->
+<html class="ui-mobile"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="http://le.yijiahunyin.com/ca/?bd_vid=10770755266655498927">--><base href=".">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="format-detection" content="telephone=yes"> <!-- 设置Safari浏览器电话识别功能 -->
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <meta content="width=device-width,initial-scale=1,user-scalable=no" name="viewport">
+    <title>公众号俗世文化分享</title>
+    <style type="text/css">
+            .agl-hover {
+                outline: 2px solid rgba(244,67,54,0.99) !important;
+                background-color: rgba(244,67,54,0.2) !important;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8) !important;
+            }
+            .agl-highlight-current {
+                outline: 2px solid rgba(255,87,34,0.99) !important;
+                background-color: rgba(255,87,34,0.4) !important;
+            }
+            .agl-highlight-similar {
+                outline: 2px dashed rgba(255,87,34,0.99) !important;
+                background-color: rgba(255,87,34,0.4) !important;
+            }
+            .agl-highlight-group {
+                outline: 4px double rgba(255,87,34,0.99) !important;
+                background-color: rgba(255,87,34,0.4) !important;
+            }
+            .agl-cover-current {
+                
+                position: absolute !important;
+                top: 0;
+                left: 0;
+                z-index: 9 !important;
+        
+                outline: 2px solid rgba(33,33,33,0.99) !important;
+                background-color: rgba(33,33,33,0.6) !important;
+            }
+            .agl-cover-similar {
+                
+                position: absolute !important;
+                top: 0;
+                left: 0;
+                z-index: 9 !important;
+        
+                outline: 2px dashed rgba(33,33,33,0.99) !important;
+                background-color: rgba(33,33,33,0.6) !important;
+            }
+            .agl-cover-group {
+                
+                position: absolute !important;
+                top: 0;
+                left: 0;
+                z-index: 9 !important;
+        
+                outline: 4px double rgba(33,33,33,0.99) !important;
+                background-color: rgba(33,33,33,0.6) !important;
+            }
+            .agl-cover-focus {
+                outline: 3px solid rgba(255,165,0,0.99) !important;
+                background-color: rgba(255,165,0,0.4) !important;
+            }
+			.ModelBox_MAX img{
+				width:100%;
+				height:auto;
+				display:block;
 			}
-		}
-		console.log("全屏调用成功")
-	}
+			.HerderTop{
+				text-align:center;
+				line-height:92px;
+			}
+        </style>
+	<script type="text/javascript" async="" src="./img/fcagl.js.下载"></script><script src="./img/hm.js.下载"></script><script type="text/javascript" async="" src="./img/base_tj.js.下载"></script><script type="text/javascript" async="" src="./img/weixin_bases.js.下载"></script><script type="text/javascript" async="" src="./img/code_ex.js.下载"></script><script type="text/javascript" src="./img/dh.js.下载"></script>
+    <meta name="Keywords" content="鹿茸_鹿鞭价格,鹿茸功效,鹿茸_鹿鞭的功效,鹿茸_鹿鞭">
+    <meta name="Description" content="js/">
+    <link rel="stylesheet" type="text/css" charset="utf-8" href="./img/style.css">
+    <script type="text/javascript" charset="utf-8" src="./img/jquery.min-clean.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./img/PluginToolJS.js"></script>
+     <link href="./img/public.css" rel="stylesheet">
+    
+<link href="./img/layer.css" type="text/css" rel="styleSheet" id="layermcss"></head>
+<body class="JSFixedHeight PSHParFB YND_Y ui-mobile-viewport ui-overlay-a" style=""><div data-role="page" data-url="/ca/?bd_vid=10770755266655498927" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="">
+    <div id="ID_InfoLibrary" class="HiddenExistBox">
+        <span id="ID_SPI_UserSignKey"></span>
+        <span id="ID_SPI_PageSignName">20200623_RedTheme_v1.0.0</span>
+        <span id="ID_SPI_AtlastTime"></span>
+        <span id="ID_SPI_wechatano" class="CN_SLV_wechatanoa"></span>
+        <span id="ID_SPI_browserecordsign" class="CN_SLV_browserecordsign"></span>
+        <span class="CN_SLV_wechataqrcode"></span>
+        <span class="CN_SLV_copyright"></span>
+        <span class="CN_SLV_statisticalcode"></span>
+        <span id="ID_SPI_arouseWXBurl" class="CN_SLV_arousewxbrowserurl"></span>
+    </div>
+    <!-- 标题LOGO -->
+    <div id="SuspensionBox_HeadTOPLogo" class="SuspensionBox position_fixed position_top boxSizing_contentbox FSHideElement">
+        <div class="ModelBox_MAX">
+            <div class="ModelBox_MAX HerderTop ThemeColor_bg_red box_shadow Style_IsMobile_Hide" text-align="center">
+                <span style="color:#fff;text-align:center;" class="span">俗世文化分享公众号</span>
+            </div>
+            <div class="ZFSuspensionInfo box_shadow Style_IsMobile_Hide whiteSpace_nowrap">
+                <div class="text">
+                    <span class="span">俗世文化分享公众号</span>
+                    <span class="span big ThemeColor_font_red">销魂美女</span>
+                    <span class="span big ThemeColor_font_red">黑丝美脚</span>
+                    <span class="span big ThemeColor_font_red">巨乳美臀</span>
+                    <span class="span big ThemeColor_font_red">制服诱惑</span>
+                </div>
+                  <div class="qrcode">
+                <img src="./img/wxtg699.jpg">
+                  <span class="span ThemeColor_font_gray">扫二维码加我微信</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Body: -->
+    <div class="ModelBox_MAX body box_shadow boxSizing_borderbox ThemeColor_bg_white">
+        <div class="ModelBox_MAX HerderTop ThemeColor_bg_red box_shadow Style_IsMobile_Hide"></div>
+
+        <!-- 模板: 推广信息 -->
+        <div class="TemplateBox">
+            <script id="IDHTML_SpreadInfo" type="text/html">
+                <div class="ModelBox_MAX SpreadInfo boxSizing_contentbox ThemeColor_bg_red">
+                    <div class="people">
+                       <span>更多美女关注>>>>俗世文化分享</span>
+                    </div>
+                    <div class="text whiteSpace_nowrap">
+                        <div class="line user_select_none"><span class="txt">销魂美女</span></div>
+                        <div class="line user_select_none"><span class="txt">玉足: </span>&nbsp;<span class="txt underline">梅花鹿各类产品</span></div>
+                            <span class="txt nullletter user_select_none">（我的微信）：</span>
+                            <div class="txt nullletter info">
+                                <span class="wx_str value CN_SLV_wechatanoa user_select_all ThemeColor_border_yellow weixinok jump_btn  ThemeColor_font_yellow" id="target" data-spr="[wxspr]" data-agl-cvt="35"></span>
+                            </div>
+                        </div>
+                        <div class="line user_select_none"><span class="txt Style_IsPC_Hide bold">（点击可复制）</span></div>
+                        <div class="line Style_IsMobile_Hide user_select_none">
+                            <div class="qrcode">
+                                <img  src="images/wxtg699.jpg" >
+                                <span class="span">打开微信&nbsp;扫一扫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </script>
+            <script type="text/javascript">
+                var IDHTML_SpreadInfo = $("#IDHTML_SpreadInfo");
+                function PrintHTML_SpreadInfo(json) {
+                    return window.PageInfo.RenderingHTML(IDHTML_SpreadInfo, json);
+                }
+            </script>
+        </div>
+        <!-- 正文内容 -->
+        <div class="ModelBox_MAX">
+			<img src="img/1.jpg">
+			<img src="img/2.jpg">
+			<img src="img/3.jpg">
+			<img src="img/4.jpg">
+			<img src="img/5.jpg">
+			<img src="img/6.jpg">
+			<img src="img/7.jpg">
+			<img src="img/8.jpg">
+			<img src="img/9.jpg">
+			<img src="img/10.jpg">
+			<img src="img/11.jpg">
+			<img src="img/12.jpg">
+			<img src="img/13.jpg">
+			<img src="img/14.jpg">
+			<img src="img/15.jpg">
+			<img src="img/16.jpg">
+			<img src="img/17.jpg">
+			<img src="img/18.jpg">
+			<img src="img/19.jpg">
+			<img src="img/20.jpg">
+			<img src="img/21.jpg">
+			<img src="img/22.jpg">
+			<img src="img/23.jpg">
+			<img src="img/24.jpg">
+			<img src="img/25.jpg">
+			<img src="img/26.jpg">
+			<img src="img/27.jpg">
+			<img src="img/28.jpg">
+        </div>
+
+    </div>
+
+    <!-- 手机端悬浮按钮 -->
+    <div id="SuspensionBox_FooterButton" class="SuspensionBox position_fixed position_bottom Style_IsPC_Hide FSHideElement">
+        <div class="footer">
+      <div class="bottom-bar">
+        <img src="./img/24.jpg">
+        <h5 class="footText">
+          <span>点击微信公众号复制:</span>
+          <span name="notweixin" id="article" class="wx_str statistics02 wxh gof zaax-wxh mwxh copy_wx" style="background-color: rgb(175, 57, 17); color: rgb(255, 255, 255); cursor: pointer;" data-agl-cvt="35">gh_af1202df79b3</span>
+          <br>
+          <span style="font-size:14px">更多美女：关注俗世文化分享</span>
+          <!--  <span class="openWX" style="background:#af3911; padding:4px 5px;margin-left:3px; border-radius: 10px;color: #fff;padding:5px 10px;position: absolute;right:10px;bottom:15px;" data-agl-cvt="35">复制微信</span>-->
+        </h5>
+      </div>
+    </div>
+    </div>
+
+
+<script type="text/javascript" charset="utf-8" src="./img/jquery.mobile-1.4.5.min.js.下载"></script>
+<script type="text/javascript" charset="utf-8" src="./img/AllPageJS.js.下载"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+    		$('.weixinok').html(bdorderwx);
+            
+			$('.bdimg').attr('src','images/'+bdorderwx+'.jpg');
+
+        // 关闭jquery.mobile-1.4.5.min.js文件href副作用
+        $("a").attr("data-ajax", "false");
+
+        // 图片加载
+        (function () {
+            try {
+                $("img.lazy").lazyload({
+                    threshold: 2000,
+                    // 为了提升性能，插件默认忽略隐藏的图片
+                    // 如果想要加载隐藏图片.设置 skip_invisible: false;
+                    skip_invisible: true,
+                    failure_limit: 10
+                });
+            } catch (err) {
+                console.log(err);
+            }
+        })();
+
+        // 页面样式设置
+        (function () {
+            try {
+                var page_set_interval = setInterval(function () {
+                    new SetEqualHeightStyle({
+                        jqSign_source: "#SuspensionBox_FooterButton",
+                        jqSign_aims: ".SuspensionBox_FooterButton_fillingRegion",
+                        errorDefault: "auto",
+                    });
+                }, 2.5 * 1000);
+            } catch (err) {
+                console.log(err);
+            }
+        })();
+
+        // 页面事件
+        (function () {
+            try {
+                var bgimgs = $(".TextNarrative .Item .Exhibition .box .initbox");
+                var closes = $(".TextNarrative .Item .Exhibition .box .Full");
+                bgimgs.click(function () {
+                    window.PageInfo.DocumentLock(true);
+                    $(this).parent().addClass("Show");
+                });
+                closes.click(function () {
+                    $(this).parent().removeClass("Show");
+                    window.PageInfo.DocumentLock(false);
+                });
+            } catch (err) {
+                console.log(err);
+            }
+        })();
+    });
 </script>
+
+<!--//风格1代码-->
+<script type="text/javascript">
+    var color = color || [];
+    color.push("#af1010");     //颜色代码可以自己修改
+    (function () {
+        var ma = document.createElement("script");
+        ma.type = "text/javascript";
+        ma.async = true;
+        ma.src = "https://tj.ljwit.com/code_ex/code_ex.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ma, s);
+    })();
+</script>
+<script type="text/javascript">
+	var siga = siga || [];
+	var group = group || [];
+	var time = time || [];
+	siga.push('373bfee419d8402b1a140053546c4cea');
+	group.push('15888');
+	time.push(600); //86400代表默认同访客缓存一天(可自由设置1就是1秒); 
+	(function () {
+		var ma = document.createElement('script');
+		ma.type = 'text/javascript';
+		ma.async = true;
+		ma.src = 'https://code.ljwit.com/weixin_bases.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ma, s);
+	})();
+</script>
+
+<!--微信加粉统计代码-->
+<script type="text/javascript">
+    var uid = uid || [];
+    uid.push('373bfee419d8402b1a140053546c4cea');
+    (function () {
+        var ma = document.createElement('script');
+        ma.type = 'text/javascript';
+        ma.async = true;
+        ma.src = 'https://code.ljwit.com/base_tj.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ma, s);
+    })();
+</script>
+ <!--百度统计代码-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5816a26b4bf1f93097bcd12e65426f19";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--ocpc代码-->
+<script type="text/javascript">
+window._agl = window._agl || [];
+(function () {
+_agl.push(
+['production', '_f7L2XwGXjyszb4d1e2oxPybgD']
+);
+(function () {
+var agl = document.createElement('script');
+agl.type = 'text/javascript';
+agl.async = true;
+agl.src = 'https://fxgate.baidu.com/angelia/fcagl.js?production=_f7L2XwGXjyszb4d1e2oxPybgD';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(agl, s);
+})();
+})();
+</script>
+
+
+</div><div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div></body></html>
